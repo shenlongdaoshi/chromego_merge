@@ -75145,11 +75145,15 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- cipher: rc4-md5
-  name: Germany_Frankfurt am Main_ss_111
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 193.108.119.230
+- cipher: chacha20-ietf-poly1305
+  name: Taiwan_Taichung_ss_111
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)b5a99e1:21612
+    mode: tls
+  port: 2377
+  server: 60.249.35.59
   type: ss
 - cipher: aes-256-cfb
   name: United States_Boardman_ssr_112
@@ -75163,15 +75167,17 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: None_None_vmess_113
+  name: United States_None_vmess_113
   network: ws
   port: 2095
-  server: singapore.com
+  server: 172.64.99.22
+  skip-cert-verify: true
   type: vmess
+  udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: ip11.6016725.xyz
+      Host: ip12.6016725.xyz
     path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -80585,9 +80591,9 @@ proxy-groups:
   - United States_Wilmington_hysteria_71
   - United States_Wilmington_hysteria_81
   - Germany_None_hysteria_91
-  - Germany_Frankfurt am Main_ss_111
+  - Taiwan_Taichung_ss_111
   - United States_Boardman_ssr_112
-  - None_None_vmess_113
+  - United States_None_vmess_113
   - None_None_vmess_114
   - None_None_vmess_115
   - None_None_vmess_116
@@ -85640,9 +85646,9 @@ proxy-groups:
   - United States_Wilmington_hysteria_71
   - United States_Wilmington_hysteria_81
   - Germany_None_hysteria_91
-  - Germany_Frankfurt am Main_ss_111
+  - Taiwan_Taichung_ss_111
   - United States_Boardman_ssr_112
-  - None_None_vmess_113
+  - United States_None_vmess_113
   - None_None_vmess_114
   - None_None_vmess_115
   - None_None_vmess_116
