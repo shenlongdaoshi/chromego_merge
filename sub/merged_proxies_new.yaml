@@ -866,7 +866,7 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: /Telegram🇨🇳
-- name: None_None_trojan_1138
+- name: United States_None_trojan_1138
   network: ws
   password: 318cab24-ec99-40a6-a54a-0db9c661a3d0
   port: 443
@@ -1119,7 +1119,7 @@ proxy-groups:
   - Switzerland_None_trojan_1135
   - United States_None_trojan_1136
   - Russia_None_trojan_1137
-  - None_None_trojan_1138
+  - United States_None_trojan_1138
   - United States_None_trojan_1139
   - United States_None_trojan_1140
   - United States_None_trojan_1141
@@ -1218,7 +1218,7 @@ proxy-groups:
   - Switzerland_None_trojan_1135
   - United States_None_trojan_1136
   - Russia_None_trojan_1137
-  - None_None_trojan_1138
+  - United States_None_trojan_1138
   - United States_None_trojan_1139
   - United States_None_trojan_1140
   - United States_None_trojan_1141
